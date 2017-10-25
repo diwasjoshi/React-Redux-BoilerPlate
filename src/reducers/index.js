@@ -1,7 +1,8 @@
 import { combineReducers } from 'redux';
+import appClick from './appClick';
 
 const rootReducer = combineReducers({
-  state: (state = {}) => state
+    appClick
 });
 
 export default rootReducer;

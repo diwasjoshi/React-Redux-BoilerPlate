@@ -4,5 +4,5 @@ import rootReducer from '../reducers/index';
 const createStoreWithMiddleware = applyMiddleware()(createStore);
 
 export default function configureStore(initialState) {
-  return createStoreWithMiddleware(rootReducer);
+  return createStoreWithMiddleware(rootReducer, initialState);
 }

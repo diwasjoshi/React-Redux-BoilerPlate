@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import First from '../containers/first';
 
 export default class App extends Component {
-  render() {
-    return (
-      <div>React Redux simple starter</div>
-    );
-  }
+    render() {
+        return (
+            <First />
+        );
+    }
 }
